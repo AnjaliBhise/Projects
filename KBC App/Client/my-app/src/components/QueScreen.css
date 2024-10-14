@@ -1,0 +1,86 @@
+/* QueScreen.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  background-image: url('../Assets/Quiz.jpg'); /* Update the path as needed */
+  background-size: cover; /* Ensure the image covers the whole area */
+  background-position: center; /* Center the image */
+  height: 100vh; /* Full height for the viewport */
+}
+
+.question {
+  width: 80%;
+  background: rgba(16, 2, 65, 0.8); /* Semi-transparent background for better text visibility */
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  color: white; /* Change font color to white */
+}
+
+.answers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.answer {
+  width: 40%; /* Default width */
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  background: linear-gradient(#0e0124, #22074d);
+  border: 1px solid white;
+  border-radius: 65px;
+  font-weight: 300;
+  font-size: 1.25rem;
+  color: white; /* Change font color to white */
+  cursor: pointer;
+}
+
+.answer:hover,
+.answer.active {
+  background: mediumblue;
+}
+
+/* New styles for timer and feedback messages */
+.timer {
+  color: white; /* Change timer text color to white */
+  font-size: 1.5rem; /* Font size for timer */
+}
+
+.feedback {
+  color: white; /* Change feedback message color to white */
+  font-size: 1.8rem; /* Font size for feedback message */
+  font-weight: bold;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .question {
+    width: 90%; /* Make the question container slightly larger on smaller screens */
+    padding: 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .answer {
+    width: 80%; /* Make answers take more width on smaller screens */
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .question {
+    font-size: 1rem;
+  }
+
+  .answer {
+    font-size: 0.9rem;
+  }
+}
