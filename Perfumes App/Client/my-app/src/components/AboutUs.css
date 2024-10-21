@@ -1,0 +1,42 @@
+.about-us {
+    background: url('../Assets/Background.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-title {
+    font-family: 'Allura', cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.about-mission {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.perfume-card {
+    background-color:gray; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.perfume-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.perfume-card h5 {
+    margin-top: 10px;
+    font-family: 'Allura', cursive; 
+}

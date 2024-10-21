@@ -1,0 +1,46 @@
+.perfume-showcase {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.perfume-card {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid white; 
+  border-radius: 10px; 
+}
+
+.perfume-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-price {
+  font-weight: bold;
+  color: pink; 
+  margin-bottom: 15px; 
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.btn-details {
+  background-color: whitesmoke; 
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-details:hover {
+  background-color:pink; 
+  color: black; 
+}

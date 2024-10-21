@@ -1,0 +1,15 @@
+/* Home.css */
+.Home {
+    background-color: black; 
+    height: 100vh; 
+    color: white; 
+}
+
+.background-img {
+    background-image: url('../Assets/Background.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
