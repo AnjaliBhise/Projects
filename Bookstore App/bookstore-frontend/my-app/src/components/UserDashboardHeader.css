@@ -1,0 +1,77 @@
+.user-dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  height: 60px;
+  background-color: transparent;
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+  font-family: 'Merienda', cursive;
+  border-radius: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.header-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #2c2c2c;
+}
+
+.header-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.account-text {
+  font-weight: 500;
+  color: #2c2c2c;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px; /* below the icon */
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  min-width: 160px;
+  z-index: 10000; /* ensure dropdown is on top */
+  overflow: hidden;
+}
+
+.dropdown-item {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition: background 0.2s;
+}
+
+.dropdown-item:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.logout {
+  color: red;
+  cursor: pointer;
+}

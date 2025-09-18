@@ -1,0 +1,15 @@
+.transparent-nav {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  font-family: 'Merienda', cursive;
+  font-weight: 900;
+}
+
+.transparent-nav .nav-link {
+  color: black !important; 
+  transition: color 0.3s ease;
+}
+
+.transparent-nav .nav-link:hover {
+  color: white !important; 
+}
